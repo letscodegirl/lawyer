@@ -29,7 +29,8 @@ body {
   background-image: url('/uploads/letscodegirl_a_beach_with_sunset_peaceful_hyperrealistic_cinema_90c8cea2-6d3b-4bc2-9a52-65cdbed017ae.png');
   background-size: cover;
   background-position: center;
-  min-height: 140vh;
+  min-height: 100vh;
+  padding: 5%;
 }
 .fixed-bg {
   background-attachment: fixed;
@@ -106,7 +107,8 @@ body {
   h2,
   h3,
   h4 {
-    @apply font-serif mb-[0.5em];
+    @apply mb-[0.5em];
+    font-family: "amandine"
   }
 
   h1 {

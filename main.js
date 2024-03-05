@@ -9,7 +9,7 @@ document.addEventListener('scroll', function() {
   const textElements = document.querySelectorAll('.font-amandine'); // Targeting your text elements
 
   // Check if the page has been scrolled past the height of the banner
-  if (window.scrollY > bannerHeight) {
+  if (window.scrollY > 100) {
     textElements.forEach(function(el) {
       el.classList.add('text-after-scroll');
     });
