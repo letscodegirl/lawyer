@@ -19,11 +19,30 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.bg-placeholder {
+/* .bg-placeholder {
   background-image: url('/uploads/letscodegirl_a_beach_with_sunset_peaceful_hyperrealistic_cinema_90c8cea2-6d3b-4bc2-9a52-65cdbed017ae.png');
   background-size: cover;
   background-position: center;
+} */
+
+.banner {
+  background-image: url('/uploads/letscodegirl_a_beach_with_sunset_peaceful_hyperrealistic_cinema_90c8cea2-6d3b-4bc2-9a52-65cdbed017ae.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 140vh;
 }
+.fixed-bg {
+  background-attachment: fixed;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-after-scroll {
+  color: #3F2B2F
+}
+
 
 .menu-button,
 .enquire-button {
