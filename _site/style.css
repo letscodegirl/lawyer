@@ -30,7 +30,8 @@ body {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  padding: 5%;
+  padding: 2%;
+  padding-bottom: 5%;
 }
 .fixed-bg {
   background-attachment: fixed;
